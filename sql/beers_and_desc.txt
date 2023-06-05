@@ -1,0 +1,81 @@
+Arkenstout
+BeerLabel_ArkenStout.png
+An ancient recipe going back millenia, tasting of honor, gold, and glory days of yore. Served best chilled to near absolute zero.
+Backbreaker Stout
+BeerLabel_BackbreakerStout.png
+An invigorating and foamy brew, putting pep and zest in any true-blooded dwarfs blood!
+Blackout Stout
+BeerLabel_BlackoutStout.png
+Renowned through space and time, a tankard of Blackout is enough to knock out almost anyone. A true test for the true drunkard.
+Blackreach Blonde
+BeerLabel_BlackreachBlonde.png
+The party-goers choice. Charming, fizzy, and fruity, the Blackreach Blonde is known to put a smile on anyones face.
+Blacklock Lager
+BeerLabel_BlocklockLager.png
+An ominous concoction, so thick and black that youd think it was taken from the very core of Hoxxes itself. Any rumors around psychotic episodes and hallucinations connected to this brew are purely anecdotal. Or so they say...
+Burning Love
+BeerLabel_BurningLove.png
+Whats cooking? Why, YOU are! The Burning Love is famous for its powerful taste and utter disregard for the Scoville Scale. Ingest at your own risk.
+Dark Morkite
+BeerLabel_DarkMorkite.png
+The original DRG-approved brew. Bitter and heady, though not so strong as to incapacitate the workforce.
+Flintlockes Delight
+BeerLabel_FlintlockesDelight.png
+How does it work? Eldritch magic? Genetic tampering? Nobody knows! Suffice to say, Flintlockes Delight is a favorite of demolitionists everywhere. Also, it tastes great - if you got a love for gunpowder, anyway.
+Glyphid Slammer
+BeerLabel_GlyphidSlammer.png
+An adventurous mix of a cheap, powerful ale with an equally cheap, powerful energy drink. The result is almost, but not quite, entirely undrinkable. But it sure does put a spring in your step.
+Gut Wrecker
+BeerLabel_GutWrecker.png
+Equal parts carbon dioxide, nitric acid, and maple syrup, the Gut Wrecker is a peculiar but exceptionally tasty brew - if you manage to keep it down, that is. Has been known to be quite fizzy.
+Leaf Lovers Special
+BeerLabel_LeafloversDelight.png
+The Leaf Lover is on this chart entirely to please Management. Itll kill your buzz faster than a pay cut, and leave you with the same empty feeling in your gut. Still, it can be handy on Inspection Day - just dont let anyone know you had one.
+Mactera Brew
+BeerLabel_MacteraBrew.png
+A delightful, tangy brew. In accordance with DRGs "Dont Ask, Dont Tell"-guidelines, the Mactera Brew quickly rose to prominence among the crew - as long as everyone agreed not to discuss the ingredients...
+Malt Rockbearer
+BeerLabel_MaltRockbearer.png
+A classic, malty brew with a distinctive tangy aftertaste, the Rockbearer is known to be behind many great dwarven feats. Be advised: Management will not reimburse any amount of clothes torn or vocal chords ruptured as a result of enjoying this drink.
+Oily Oaf Brew
+BeerLabel_OilyOafBrew.png
+The Oily Oaf. A classic. While one of the lighter drinks available, the rich, buttery aftertaste coupled with the low price tag means the Oaf is here to stay.
+Pots O Gold
+BeerLabel_PotsOGold.png
+Pots O Gold - otherwise known as "Liquid Luck" - has been known to instill any red-blooded dwarf with sharply enhanced senses and an impressive lust for sweet, sweet gold...gold...GOLD! Riches surely await anyone lucky enough partake of this elusive brew.
+Red Rock Blaster
+BeerLabel_RedRockBlaster.png
+When you absolutely, positively got to kill everything in your path, accept no substitutes. Equal parts prime aged stout, habanero sauce, and military-grade combat stim, the Red Rock Blaster will make you see RED!
+Rocky Mountain
+BeerLabel_RockyMountain.png
+A touch of class. A thinkers drink. Quaffing this heady brew imparts an awesome sense of oneness with the rock around you, letting you carve through it like butter.
+Seasoned Moonrider
+BeerLabel_SeasonedMoonrider.png
+Malty and sweet, the Seasoned Moonrider is a distinguished brew thats sure to put a kick in your step.
+Skull Crusher Ale
+BeerLabel_SkullCrusherAle.png
+The cosmic fury of a thousand raging suns course through this midnight-black, glistening concoction. People ask why we remember Karl. People ask what made him a legend. Rumor has it Skull Crusher Ale is at least partly to blame. Make of that what you will. Beware.
+Slayer Stout
+BeerLabel_SlayerStout.png
+A rare and much desired brew. Continuing the millennia-old tradition, this heady ale was imbibed by the strongest, most fiercest, most absolutely rabid dwarves of old before heading into glorious battle seeking an honorable end. Not for the faint of heart.
+Tunnel Rat
+BeerLabel_TunnelRat.png
+The Smoothest of brews, known to instill such confidence and grace into even the clumsiest dwarf as to make any sober dwarf blanch. Be warmed: Overconfidence is not covered by the company insurance.
+Underhill Deluxe
+BeerLabel_UnderhillDeluxe.png
+In a hole in the ground, there lived a brewer. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to drink; it was a brewery, and that means beer. This beer, in fact. And it is lovely.
+Wormhole Special
+BeerLabel_WormholeSpecial.png
+There are some breweries out there that will go to any lengths to attract customers. There are dark rumors surrounding the Wormhole Special - dark and ominous as the blackness of space itself - but damn if it aint tasty even so. Drink with caution and respect. Grasp your knees tightly and close your eyes. Itll be over soon.
+Best Wurst Beer
+Best_Wurst_Beer_Logo.png
+A sausage-flavoured brew. Actual food was not within the budget for the celebration, so this was the second best option. Will definitely put some hair on your chest. If you can keep it down...
+Oily Oaf Brew
+Icons_OilyOaf_SupporterEdition_Label.png
+It is functionally identical to the regular Oily Oaf Brew, but comes in a golden tankard, and replaces the regular Oily Oaf Brew in the bar.
+Smart Stout
+Icons_SmartStout_Label.png
+While most drinking has a tendency to slow you down, Smart Stout stands out by doing the opposite. Imbibe enough of this rich, golden nectar and youll be solving complex orbital insertion equations faster than you can say "This drink, I like it! Another!". How? Its said Science is involved. Somehow.
+Glyphid Slammer
+Icons_SupporterEdition_Label.png
+It is functionally identical to the regular Glyphid Slammer, but comes in a golden tankard, and replaces the regular Glyphid Slammer in the bar.

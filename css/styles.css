@@ -1,0 +1,502 @@
+/* font-family: 'Share Tech Mono', monospace;
+font-family: 'VT323', monospace; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #aaaaaa;
+    background-color: #212121;
+    font-family: 'Share Tech Mono', monospace;
+}
+#hidden{
+    font-size: 0px;
+    color: #00000000;
+}
+
+header{
+    padding-top: 5px;
+    margin: 0px;
+    background-color: #1a1a1a;
+    width: 100%;
+    height: auto;
+}
+
+/* .header-logo{
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+/* .header-logo > p{
+    color: #ffd900;
+    text-shadow:
+    -2px 0px 0px #ffae00,
+    2px 0px 0px #ffae00,
+    0px -2px 0px #ffae00,
+    0px 2px 0px #ffae00;
+    margin: 0px;
+} */
+#logo-mork{
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    z-index: 1000;
+}
+
+li{
+    list-style: none;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.navbar{
+    min-height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 0 24px;
+    /* width: 100%;
+    height: 130px; */
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    z-index: 2;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: #ffd900;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width:948px){
+    .hamburger{
+        display: block;
+    }
+    
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: #1a1a1a;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        gap: 10px;
+        top: 100px;
+        left: 0;
+        padding: 10px;
+    }
+}
+/* nav > ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+    padding: 0%;
+    gap: 2rem;
+    margin: 0 0 5px 0;
+}
+li a:hover{
+    color: #ffd900;
+} */
+
+/* ================= main ============== */
+
+.section{
+    position: relative;
+    height: 80vh;
+    padding-bottom: 2%;
+}
+
+#bg-img-sec-1{
+    margin: 10px 0px;
+    background-image: url(../assets/backgrounds/1286244.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 80vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    
+}
+
+.borderedText{
+    font-size: 2vh;
+    width: 50%;
+    padding: 5%;
+    color:white;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid #f1f1f1; 
+
+}
+
+#pos-div-sec-1{
+    position: absolute;
+    top: 15%;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#pos-div-sec-1 > img{
+    height: auto;
+    width: 20vw;
+}
+
+#pos-div-sec-2{
+    position: absolute;
+    top: 10%;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#pos-div-sec-2 > img{
+    height: auto;
+    width: 20vw;
+}
+
+#bg-img-sec-3{
+    margin: 10px 0px;
+    background-image: url(../assets/backgrounds/Fungus_Bug_final.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 80vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#pos-div-sec-3{
+    position: absolute;
+    top: 10%;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#pos-div-sec-3 > img{
+    height: auto;
+    width: 20vw;
+}
+ /* ============ footer ============= */
+footer{
+    padding: 3%;
+    background-color: #1a1a1a;
+}
+.footerContainerText{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.footerContainerText p{
+    text-align: center;
+}
+
+a, a:link, a:visited {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+a:hover{
+    color: #f1f1f1;
+    text-decoration:dotted;
+}
+.footerNav{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.footerNav{
+    margin: auto;
+    width: 350px;
+    padding: 9px;
+}
+
+.fa-brands{
+    color: #f1f1f1;
+    padding: 10px;
+}
+
+#last-sect{
+    padding-bottom: 0%;
+}
+
+div a i:hover{
+    transition: 0.7s ease;
+}
+
+div a i:hover{
+    color: #ffd900;
+}
+
+/* ============== bewery ===========*/
+
+.section-2{
+    position: relative;
+    height: 85vh;
+}
+
+#bg-img-bew-sec-1{
+    margin: 10px 0px;
+    background-image: url(../assets/backgrounds/AzureWeald_Wallpaper16x9.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 85vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beer-label{
+    width: 35vh;
+    height: auto;
+}
+
+.borderedText-2{
+    font-size: 2vh;
+    height: 70vh;
+    padding: 5%;
+    color:white;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid #f1f1f1; 
+
+}
+
+.borderedText-2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.borderedText-2 h1{
+    text-align: center;
+}
+
+.borderedText-2 p{
+    text-align: center;
+}
+
+#pos-div-sec-bew-1{
+    position: absolute;
+    top: 5%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40vh;
+}
+
+#btn-container{
+    display: flex;
+}
+
+
+.slidbtn{
+    color: #f1f1f1;
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: #00000000;
+    flex: 1;
+    border: 2px solid #f1f1f1;
+    text-align: center; 
+    bottom: 0px;
+    align-self: flex-end;
+}
+/* ============= rescal =====================*/
+
+#mineral-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 2vh;
+    min-width: 100vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#mineral-table thead tr {
+    text-shadow: 3px 3px 0px #180101;
+    background-color: #dbb921;
+    color: #f1f1f1;
+    text-align: left;
+}
+
+#mineral-table td,
+#mineral-table th{
+    padding: 12px 15px;
+    text-align: center;
+}
+
+#mineral-table tr img {
+    width: 50px;
+    height: auto;
+    padding: 0 10px 0 10px;
+}
+
+#mineral-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#mineral-table tbody tr:last-of-type {
+    border-bottom: 2px solid #dbb921;
+}
+
+.min-btn{
+    color: #f1f1f1;
+    font-size: 3vh;
+    width: 40px;
+    background-color: #00000000;
+    border: 2px solid #dbb921;
+}
+.art-min-cent{
+    margin: 25px auto;
+    width: 100vh;
+}
+
+.borderedText-min{
+    font-size: 2vh;
+    padding: 2%;
+    color:white;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid #f1f1f1;   
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.borderedText-min img{
+    width: 10vh;
+    height: 10vh;
+    padding: 10px;
+}
+
+/* ============= contact =====================*/
+
+form {
+    padding: 10px;
+}
+
+#com-sect{
+    display: inline-block;
+    
+}
+
+#com-sect input{
+    width: 300px;
+    color: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #00000000;
+    border: 2px solid #dbb921;
+}
+
+#com-sect textarea{
+    width: 300px;
+    min-height: 200px;
+    resize: none;
+    color: #f1f1f1;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #00000000;
+    border: 2px solid #dbb921;
+}
+
+#com-sect button{
+    color: #f1f1f1;
+    padding: 5px;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #00000000;
+    border: 2px solid #dbb921;
+}
+
+.comment-box{
+    display: flex;
+    text-align: left;
+    align-items: center; 
+    justify-content: left;
+    margin: auto;
+    width: 500px;
+    padding: 25px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #00000000;
+    border: 2px solid #dbb921;
+    
+}
+
+/* ====================== gallery ====================== */
+.gallery{
+    padding: 15px;
+}
+
+.gallery h1{
+    padding: 20px;
+}
+
+.gallery img {
+    width: 70%;
+    height: auto;
+}
+
+.gallery .min-btn{
+    width: 60px;
+    margin: 20px;
+}
